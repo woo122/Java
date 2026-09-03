@@ -15,8 +15,10 @@ public class OperatorTableCalculator {
         double difference = first - second;
         double product = first * second;
 
-        String quotientText = String.valueOf(first / second);
-        String remainderText = String.valueOf(first % second);
+        String quotientText = canDivide ? String.valueOf(first / second)
+                : "0으로 나눌 수 없음";
+        String remainderText = canDivide ? String.valueOf(first % second)
+                : "0으로 나눌 수 없음";
 
         boolean sameValues = first == second;
         boolean firstIsGreater = first > second;
