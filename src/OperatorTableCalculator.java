@@ -32,6 +32,5 @@ public class OperatorTableCalculator {
         System.out.println("두 값이 같은가: " + sameValues);
         System.out.println("첫 값이 더 큰가: " + firstIsGreater);
         scanner.close();
-
     }
 }
