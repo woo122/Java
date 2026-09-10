@@ -121,9 +121,9 @@ public class FinalOrderKiosk_student {
                 int paymentAmount = orderAmount - discountAmount;
 
                 // TODO 12: for문의 초기식, 조건식, 증감식을 직접 작성한다.
-                //for (int i = -1; i < -1; i += 0) {
-                //    System.out.print("=");
-                //}
+                for (int i = 1; i < 20; i++) {
+                    System.out.print("=");
+                }
                 System.out.println();
                 System.out.println("커피: " + coffeeCount + "개");
                 System.out.println("샌드위치: " + sandwichCount + "개");
